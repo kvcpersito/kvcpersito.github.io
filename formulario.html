@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/form.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="mall">
+        <div class="iconos">
+          <a href="/index.html"
+            ><img
+              src="iconos/icons8-home-100.png"
+              alt=""
+              style="height: 25px"
+          /></a>
+          <p>
+            <a href="#exp">Inicio</a>
+          </p>
+        </div>
+      </div>
+    </nav>
+    <div class="formularioCompleto">
+      <h2>Envie Su Formulario</h2>
+      <form action="https://formsubmit.co/qwertyspain1@gmail.com" method="POST">
+        <label for="name">Nombre De La Empresa</label>
+        <input type="text" name="name" id="name" />
+
+        <label for="email">Correo Electronico</label>
+        <input type="email" name="email" id="email" />
+
+        <label for="subject">Asunto</label>
+        <input type="text" name="subject" id="subject" />
+
+        <label for="coments">Comentarios</label>
+        <textarea name="coments" id="coments" cols="30" rows="5"></textarea>
+
+        <input type="submit" class="btn" id="btn" />
+      </form>
+    </div>
+  </body>
+</html>

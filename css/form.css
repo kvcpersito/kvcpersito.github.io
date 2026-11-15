@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(26, 32, 44);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+        background: linear-gradient(
+        50deg,
+        rgba(40,42,55,1)10%,
+        rgba(40,42,55,0.7)
+    ),
+    url(/img/paisaje.webp);
+    
+    background-size: cover;         /* Ajusta la imagen para cubrir el contenedor */
+    background-position: center;    /* Centra la imagen */
+    background-repeat: no-repeat;
+}
+
+/* Menu */
+.mall {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    list-style: none;
+    background: rgb(26, 32, 44);
+    border-top: 2px solid rgb(13, 72, 143);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1000; /* Evita que se tape por otros elementos */
+}
+
+.mall p a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px;
+    padding: 10px 0;
+}
+
+/*---------- GIN MENU */
+
+.formularioCompleto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.formularioCompleto h2{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    margin-bottom: 20px;
+    border-radius: 7px;
+    height: 10vh;
+    width: 60vw; 
+    padding: 10px;
+}
+form input{
+    margin-bottom: 10px;
+    border-radius: 7px;
+    height: 30px;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+form label{
+    padding-bottom: 10px;
+}
+textarea,
+input:focus{
+    border: 2px solid black;
+    outline: none;
+    box-shadow: 0 0 10px rgb(0, 112, 243);
+    padding: 10px;
+}
+
+.btn{
+    background: rgb(0, 112, 243);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+}
+.btn:hover{
+    cursor: pointer;
+    outline: none;
+    background: black;
+    transition: 1s;
+    color: rgb(0, 112, 243);
+    box-shadow: 0 0 10px rgb(0, 112, 243);
+
+}
+

@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(26, 32, 44);
+    color: white;
+    font-family: 'Roboto';
+}
+
+/* ------------ Este es el Menu --------- */
+
+.mifoto img{
+    height: 100px;
+    width: 100px;
+}
+.mall{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    list-style: none;
+    background: rgb(26, 32, 44);
+    border-top-style: solid;
+    border-top-color: rgb(13,72,143);
+    border-top-width: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.mall p a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* Hero */
+
+.sobremi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    width: 97vw;
+}
+.mifoto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 5px;
+    background: rgb(75, 83, 95);
+    box-shadow: 0 0 0 20px rgb(43, 50, 62);
+    margin-bottom: 30px;
+}
+
+.mifoto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.minombre{
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+.minombre span{
+    color: rgb(0, 112, 243);
+}
+
+hr{
+    margin:5px;
+    width: 100px;
+    height: 4px;
+    background: cyan;
+    border-color: cyan;
+}
+.smalldes{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.smalldes h3{
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(0, 112, 243); 
+}
+.smalldes1{
+    font-size: 15px;
+}
+
+.button{
+    margin: 10px;
+    display: flex;
+}
+.button .cv{
+    width: 80px;
+}
+.button .linkedin{
+    width: 120px;
+}
+.button .contactame{
+    color: white;
+    background: rgb(0, 112, 243);
+}
+.button button{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    font-size: 17px;
+    justify-content: center;
+}
+
+.hero1{
+    background: rgb(35, 41, 53);
+    padding: 15px;
+}
+.h3hero{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+.quienSoy{
+    line-height: 25px;
+}
+.quienSoy h3{
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 23px;
+}
+.habilidades{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.habilidades1{
+    display: flex;
+}
+.habilidades p{
+    margin: 10px;
+    background: rgb(26, 32, 44);
+    border-radius: 10px;
+    width: 120px;
+    padding: 5px;
+}
+.habilidades2{
+    display: flex;
+}
